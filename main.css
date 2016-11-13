@@ -29,7 +29,7 @@
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {position:relative;
     display: block;
 }
 
@@ -37,4 +37,14 @@
     background-color: #3e8e41;
 }
 
+@font-face{
+	font-family:righteous ;
+	src:path('Righteous-Regular.ttf');
+}
 
+body{
+font-family:righteous;
+background-color: #592A71;
+color: white;
+padding: 5%;
+}
